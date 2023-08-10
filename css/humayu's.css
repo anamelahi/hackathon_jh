@@ -1,6 +1,19 @@
-#title{
+#title {
     background-color: #FFC815;
-    background-image: url('../images/bwqutubminar.jpg');
+    background-image: url('https://c0.wallpaperflare.com/preview/125/989/124/ancient-arches-architecture-building.jpg'); /* Replace with the actual image path */
+    background-size: cover; /* Adjusts the size of the background image to cover the entire element */
+    background-position: center; /* Centers the background image within the element */
+}
+
+.content-box {
+    background-color: rgb(197 197 197 / 70%); /* Greyish background with 70% opacity */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Rounded corners for the container box */
+}
+
+.ticket-info {
+    margin-top: 20px; /* Add some spacing between the heading and ticket info */
+    font-weight: 500;
 }
 
 button{
@@ -29,10 +42,23 @@ h1{
     color: #fff;
 }
 
-.favourite{
+.favourite {
     background-color: transparent;
     border: none;
     margin-left: 50px;
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.favourite:hover {
+    color: red; /* Change the color to red on hover */
+}
+
+.favourite.clicked {
+    color: red; /* Change the color to red when clicked */
+}
+
+.headline{
+    color: #000000;
 }
 
 .headingfav{
