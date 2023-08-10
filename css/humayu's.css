@@ -1,0 +1,93 @@
+#title{
+    background-color: #FFC815;
+    background-image: url('../images/bwqutubminar.jpg');
+}
+
+button{
+    margin: 0 10px 0 0;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.row{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.timinglocation{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.favourite{
+    background-color: transparent;
+    border: none;
+    margin-left: 50px;
+}
+
+.headingfav{
+    display: flex;
+}
+
+.icon{
+    padding-bottom: 1.5rem;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subhead{
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #000000;
+    word-wrap: break-word;
+}
+
+.row{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+#mustvisit{
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    margin: auto;
+    width: 52.1%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#diary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the section takes up the full viewport height */
+}
+
+.picturediary{
+    color: #000000;
+    font-size: 2rem;
+}
+
+.mapshead{
+    color: #000000;
+    font-size: 2rem;
+}
